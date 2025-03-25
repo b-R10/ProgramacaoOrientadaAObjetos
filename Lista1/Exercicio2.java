@@ -5,9 +5,12 @@ import java.util.Scanner;
 public class Exercicio2 {
   public static void main(String[] args) {
 
-    Scanner scanner = new Scanner(System.in);
-    int num1 = scanner.nextInt();
-    int num2 = scanner.nextInt();
+      int num1;
+      int num2;
+      try (Scanner scanner = new Scanner(System.in)) {
+          num1 = scanner.nextInt();
+          num2 = scanner.nextInt();
+      }
 
     int soma = num1 + num2;
     int subtracao = num1 - num2;

@@ -1,0 +1,2 @@
+Para que um membro só possa ser acessado por outros membros da mesma classe, deve
+ser declarado como private.

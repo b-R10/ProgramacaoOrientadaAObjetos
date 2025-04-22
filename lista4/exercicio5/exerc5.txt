@@ -1,0 +1,3 @@
+O fragmento está incorreto, pois, o tipo de retorno não diferencia métodos com 
+nomes diferentes. A única forma de diferenciá-los é pela quantidade ou tipo dos
+parâmetros.

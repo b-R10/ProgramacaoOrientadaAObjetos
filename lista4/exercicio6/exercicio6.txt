@@ -1,0 +1,2 @@
+O atributo deve ser declarado como static. Dessa forma, ele será semelhante a uma
+variável global. Assim, pode ser compartilhada por todos os objetos.

@@ -1,0 +1,24 @@
+public class X {
+  private int cont;
+
+  public void setCont(int cont) {
+    this.cont = cont;
+  }
+}
+
+public class Y {
+  public static void main (String[ ] args) {
+    X ob = new X();
+    ob.cont = 10;
+  }
+}
+
+Para que seja possível alterar o valor do atributo cont, deve-se passar como parâmetro do metodo setCont
+o valor 10. Segue a o uso correto:
+
+public class Y {
+  public static void main (String[ ] args) {
+    X ob = new X();
+    ob.setCont(10);
+  }
+}

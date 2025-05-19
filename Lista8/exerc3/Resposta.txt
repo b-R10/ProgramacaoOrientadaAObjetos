@@ -1,0 +1,9 @@
+A saída do código será:
+
+Computador()
+Notebook()
+Código: 12345
+
+A saída é esta, pois, quando o construtor de uma subclasse é chamado, o construtor 
+da superclasse é chamado antes. Caso exista um construtor sem parâmetros na superclasse,
+o construtor é chamado sem o super() desde que o construtor não tenha parâmetros.

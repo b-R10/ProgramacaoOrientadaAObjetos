@@ -1,0 +1,3 @@
+1. a. Há problemas de acesso entre as classes. Como estilo é privado em triangulo,
+  ele nao pode ser acessado por Shapes. Para que funcionasse, criei um metodo setter.
+  Esse metodo tem como parametro o estilo a ser adicionado.

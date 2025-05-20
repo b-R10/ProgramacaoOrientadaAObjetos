@@ -1,0 +1,9 @@
+A saída será:
+
+Construção de A.
+Construção de B.
+Construção de C.
+
+Quando o construtor de uma classe pai não tem argumentos, ele é chamado automaticamente na classe filha.
+Portanto, ao chamar o construtor C(), o construtor B() é inicializado na primeira linha. Ao chamar o construtor
+B(), o construtor A() é inicializado na primeira linha. Assim, são executados em sequência A(), B() e C()

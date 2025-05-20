@@ -1,0 +1,2 @@
+Não. A chamada super() deve ser a primeira linha de instrução do construtor da subclasse, caso contrário,
+haverá um erro de compilação.

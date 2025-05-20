@@ -8,6 +8,7 @@ public class Livro extends Produto {
     this.autor = autor;
   }
 
+  @Override
   public String toString() {
     return (getNome() + "; R$ " + getPreco() + "; autor:" + autor);
   }

@@ -1,0 +1,2 @@
+Sim. Os parâmetros podem ser passados via super(). É dessa forma que se chama o construtor da superclasse
+quando ele têm argumentos.

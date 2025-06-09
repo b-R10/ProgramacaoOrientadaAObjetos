@@ -1,0 +1,2 @@
+Caso m1() seja private, objetos da classe B acessarão apenas:
+  m2(), m3(), m4() e m5()

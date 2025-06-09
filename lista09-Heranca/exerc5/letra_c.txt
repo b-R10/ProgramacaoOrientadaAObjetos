@@ -1,0 +1,2 @@
+Os métodos que podem ser acessados por objetos da classe B são:
+  m1(), m2(), m3(), m4() e m5()

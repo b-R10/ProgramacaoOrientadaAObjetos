@@ -1,0 +1,2 @@
+Os métodos que podem ser acessados por objetos da classe A são:
+  m1(), m2() e m3()

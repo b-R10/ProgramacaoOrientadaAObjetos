@@ -1,0 +1,2 @@
+1. c. Ao tornar privados os atributos da superclasse, não é mais possível acessar diretamente
+    os atributos dela através das subclasses. Para resolver isso, deve-se usar modificadores.

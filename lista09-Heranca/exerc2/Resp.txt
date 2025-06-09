@@ -1,0 +1,6 @@
+A subclasse executa o construtor da superclasse através dos seguintes meios:
+  1. Automaticamente. Quando o construtor da superclasse não tem parâmetros e ele não é explicitamente
+  invocado na subclasse, ele é chamado automaticamente pelo construtor da subclasse.
+  2. Através do método super(). O método super() recebe como argumentos os parâmetros para o construtor
+  da superclasse. Através dele, o construtor da superclasse é chamado manualmente, permitindo utilizar
+  os atributos da superclasse na subclasse.

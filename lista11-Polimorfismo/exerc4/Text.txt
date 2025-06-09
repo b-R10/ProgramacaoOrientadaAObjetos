@@ -1,0 +1,2 @@
+Não há impactos significantes no código. Pois, o código está bem segmentado e suas 
+partes são independentes.

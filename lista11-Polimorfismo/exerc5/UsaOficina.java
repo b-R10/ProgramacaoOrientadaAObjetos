@@ -24,6 +24,10 @@ public class UsaOficina {
       System.out.println("---");
     }
 
+    for(Veiculo v : lista) {
+      System.out.println(v);
+    }
+
   }
 
 }

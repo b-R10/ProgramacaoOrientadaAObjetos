@@ -8,7 +8,7 @@ public class Quadrado {
     this.lado = lado;
   }
 
-  public double cacularArea(double lado) {
+  public double calcularArea() {
     return lado * lado;
   }
 

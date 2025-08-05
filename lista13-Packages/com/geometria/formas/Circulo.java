@@ -9,7 +9,7 @@ public class Circulo {
     this.raio = raio;
   }
 
-  public double calcularArea(double raio) {
+  public double calcularArea() {
     return PI * raio * raio;
   }
 

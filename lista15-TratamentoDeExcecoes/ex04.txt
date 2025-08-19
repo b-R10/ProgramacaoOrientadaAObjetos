@@ -1,0 +1,2 @@
+Quando uma exceção não é capturada, o erro faz com que a execução do código seja
+terminada abruptamente e o JVM imprime o stack trace no console.

@@ -1,0 +1,1 @@
+A classe que fica no topo da hierarquia de exceções é a classe Throwable.

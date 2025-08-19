@@ -1,0 +1,14 @@
+public class Exercicio1 {
+  public static void main(String[] args) {
+    int[] vetor = new int[] { 2, 4, 6, 8, 10 };
+    for (int i = 0; i < 6; i++)
+      System.out.println(vetor[i]);
+    catch (ArrayIndexOutOfBoundsException exc) {
+      System.out.println("Final do vetor!");
+    }
+  }
+}
+
+O catch não pode existir sem o try. Além disso, o laço for tenta acessar a
+posição 5 do vetor. Porém, o vetor só vai até a posição 4. Resultando numa
+exceção em que o tamanho do vetor é ultrapassado.

@@ -1,0 +1,1 @@
+O código cujas instruções são monitoradas é o que está dentro do bloco try

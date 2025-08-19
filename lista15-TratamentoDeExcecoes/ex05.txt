@@ -1,0 +1,3 @@
+O programa deve lidar com o erro utilizando o try, e catch, para que a execução
+do programa não seja terminada abruptamente. Se não, deve mandar a exceção para
+outro trecho do código para que ele lide com ela.

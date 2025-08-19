@@ -1,0 +1,4 @@
+O try determina o trecho de código que será analisado em busca de exceções. O
+catch contém o trecho de código que deve ser executado para cada erro em
+particular. O finally contém um trecho de código que sempre será executado, 
+independente de algum erro ter sido encontrado.

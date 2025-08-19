@@ -1,0 +1,4 @@
+Dentro do catch está o código que deve ser executado para lidar com determinado
+erro que foi encontrado. Após a execução do catch, o fluxo de execução retorna
+para o ponto seguinte ao catch, ou finally, em que estava quando o erro foi 
+identificado.

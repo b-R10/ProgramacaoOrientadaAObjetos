@@ -1,0 +1,55 @@
+1 - Um bloco try pode tratar dois ou mais exceções diferentes sim. Para cada catch, 
+temos uma exceção.
+
+2 - Sim. Se usarmos catch (Exception exc), seram capturadas todas suas subclasses.
+
+3 - Ela é propagada para o bloco mais externo e seguindo até ser capturada ou o 
+programa ser finalizado.
+
+4 - Sim. Ele pode relançar a exceção para um catch externo através do throw.
+
+5 - Ele interrompe o fluxo do programa e lança a exceção para seu bloco correspondente.
+
+6 - Sim. Os objetos devem ser instâcias de classes que derivam de Throwable, como 
+Exception ou Error.
+
+7 - Sim. Isso permite que um bloco catch externo trate-a.
+
+8 - 
+Executa linha 1 e linha 2;
+  recebe a exceção e vai para o catch;
+Executa linha 4, 5 e 6;
+  trata a exceção;
+Segue o código;
+Executa linha 7 e 8;
+  recebe a exceção e vai para o catch;
+Executa linha 10, 11, 12.;
+  trata a exceção.
+
+9 - linhas: 1, 2, 5, 6, 7.
+
+10 - Falso. Ele não é necessariamente a última parte do código. É possível ter outras instruções
+após o bloco finally.
+
+11 - Exception e Error.
+
+12 - Não. O código normalmente não deve lançar essas exceções pois representam problemas
+graves do ambiente de execução.
+
+13 - 
+
+public class ParImpar {
+  public static void main (String args[]) {
+    int num;
+    try {
+      num = Integer.parseInt(args[0]);
+      if ((num % 2) == 0)
+        System.out.println("Número par");
+      else
+        System.out.println("Número impar");
+    } catch (NumberFormatException exc) {
+      System.out.println("Erro: o argumento não é um inteiro válido")
+    }
+  }
+}
+

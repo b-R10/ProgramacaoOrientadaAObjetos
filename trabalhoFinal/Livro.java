@@ -51,7 +51,7 @@ public class Livro {
         ", ID: " + identificador;
   }
 
-  ////////////////////////////////////////////////////////////////////////////////////////////////
+
   // metodo para busca (manipulacao de strings)
   public boolean contemTermo(String termo) {
     if (termo == null || termo.trim().isEmpty())
@@ -62,6 +62,5 @@ public class Livro {
     categoria.toLowerCase().contains(termoLower) ||
     identificador.toLowerCase().contains(termoLower);
   }
-  ////////////////////////////////////////////////////////////////////////////////////////////////
   
 }

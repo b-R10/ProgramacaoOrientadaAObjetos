@@ -114,7 +114,7 @@ public class Main {
 
         Cliente cliente = new Cliente(nome, cpf, numeroCadastro);
         biblioteca.cadastrarCliente(cliente);
-        System.out.println("✓ Cliente cadastrado com sucesso!");
+        System.out.println("Cliente cadastrado com sucesso!");
     }
 
     private static void realizarEmprestimo() {
@@ -129,7 +129,7 @@ public class Main {
         try {
             biblioteca.realizarEmprestimo(cliente, livro);
         } catch (LivroIndisponivelException e) {
-            System.out.println("✗ Erro: " + e.getMessage());
+            System.out.println("Erro: " + e.getMessage());
         }
     }
     
@@ -303,6 +303,6 @@ public class Main {
         biblioteca.cadastrarCliente(new Cliente("Maria Santos", "987.654.321-00", "CLI002"));
         biblioteca.cadastrarCliente(new Cliente("Pedro Costa", "111.222.333-00", "CLI003"));
 
-        System.out.println("✓ Dados de exemplo cadastrados automaticamente.");
+        System.out.println("Dados de exemplo cadastrados automaticamente.");
     }
 }
